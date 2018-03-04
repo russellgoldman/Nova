@@ -31,5 +31,6 @@ dependencies {
     compile 'ai.api:libai:1.6.12'
     // api.ai SDK dependencies
     compile 'com.android.support:appcompat-v7:27.1.0'
+    compile 'com.android.support:cardview-v7:27.1.0'
 
 }
