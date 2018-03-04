@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.nova.LoginActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:paddingRight="90dp"
+        android:paddingEnd="90dp"
+        android:text="Hello,"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's your
+name?"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:paddingTop="16dp"
+        android:layout_marginLeft="40dp"/>
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:theme="@style/Theme.AppCompat">
+
+                <EditText
+                    android:id="@+id/name_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="name"
+                    android:textColor="#FFFFFF"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/email_sign_in_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="16dp"
+                android:text="  NEXT"
+                android:textColor="#FFF"
+                android:background="@drawable/button_bubble"
+                android:onClick="slide2_button"
+                />
+
+        </LinearLayout>
+</LinearLayout>
