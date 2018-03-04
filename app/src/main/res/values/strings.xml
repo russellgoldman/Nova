@@ -18,4 +18,14 @@
     <string name="title_activity_resources">ResourcesActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string-array name="spinner_array">
+        <item>All</item>
+        <item>Counselling Services</item>
+        <item>Helplines</item>
+        <item>Workshops</item>
+        <item>Programs</item>
+        <item>Clubs</item>
+    </string-array>
+
 </resources>
