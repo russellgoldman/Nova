@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.nova.LoginActivity"
-    android:background="@color/colorPrimary">
+    android:background="#2a358b">
 
     <TextView
         android:layout_width="wrap_content"
@@ -37,7 +37,7 @@ name?"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="100dp">
+            android:layout_marginTop="50dp">
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="275dp"
@@ -54,6 +54,8 @@ name?"
                     android:maxLines="1"
                     android:singleLine="true"
                     android:textColor="#FFFFFF"
+                    android:textStyle="italic"
+                    android:alpha="0.7"
                     android:gravity="center"
                     android:textSize="20sp"/>
 
@@ -67,10 +69,26 @@ name?"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/button_bubble"
-                android:fontFamily="@font/poppins"
+                android:fontFamily="@font/"
                 android:onClick="slide2_button"
                 android:text="  NEXT"
                 android:textColor="#FFF" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:text="Do you already have an account with us?"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FFF"
+                android:text="LOGIN"/>
 
         </LinearLayout>
 </LinearLayout>

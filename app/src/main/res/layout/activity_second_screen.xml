@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.nova.SecondScreenActivity"
-    android:background="@color/colorPrimary">
+    android:background="#2a358b">
 
     <TextView
         android:id="@+id/hello"
@@ -100,6 +100,8 @@ you go to?"
                 android:singleLine="true"
                 android:text="enter school"
                 android:gravity="center"
+                android:textStyle="italic"
+                android:alpha="0.7"
                 android:textColor="#FFF" />
 
         </android.support.design.widget.TextInputLayout>
@@ -111,10 +113,10 @@ you go to?"
             android:layout_marginLeft="120dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/button_bubble"
-            android:fontFamily="@font/poppins"
+            android:fontFamily="@font/open_sans"
+            android:onClick="goto_home"
             android:text="DONE"
-            android:textColor="#FFFFFF"
-            android:onClick="goto_home"/>
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 

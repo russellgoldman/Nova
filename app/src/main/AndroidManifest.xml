@@ -32,7 +32,8 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity android:name=".ResourcesActivity" />
-        <activity android:name=".Home"></activity>
+        <activity android:name=".Home" />
+        <activity android:name=".ChatActivity"></activity>
     </application>
 
 </manifest>

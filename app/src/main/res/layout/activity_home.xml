@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2F336C"
+    android:background="#30336b"
     android:visibility="visible"
     tools:context="com.example.android.nova.Home"
     android:orientation="vertical"
@@ -64,6 +64,7 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/nova_talk"
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
                 android:src="@drawable/logo2" />
@@ -92,7 +93,7 @@
             android:orientation="vertical">
             <Button
                 android:layout_width="wrap_content"
-                android:background="#19B99A"
+                android:background="#26b99a"
                 android:layout_height="90dp"
                 android:text="FIND RESOURCES"
                 android:gravity="center_vertical"
