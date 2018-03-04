@@ -49,11 +49,13 @@ name?"
                     android:id="@+id/name_field"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="center"
+                    android:fontFamily="@font/poppins"
                     android:text="name"
-                    android:textColor="#FFFFFF"
                     android:maxLines="1"
-                    android:singleLine="true" />
+                    android:singleLine="true"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:textSize="20sp"/>
 
             </android.support.design.widget.TextInputLayout>
 
@@ -64,11 +66,11 @@ name?"
                 android:layout_height="30dp"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="16dp"
-                android:text="  NEXT"
-                android:textColor="#FFF"
                 android:background="@drawable/button_bubble"
+                android:fontFamily="@font/poppins"
                 android:onClick="slide2_button"
-                />
+                android:text="  NEXT"
+                android:textColor="#FFF" />
 
         </LinearLayout>
 </LinearLayout>

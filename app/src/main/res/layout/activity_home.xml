@@ -31,8 +31,9 @@
             android:id="@+id/home_field"
             android:layout_width="wrap_content"
             android:layout_height="44dp"
+            android:layout_marginLeft="5dp"
             android:fontFamily="@font/poppins"
-            android:text=" Russell"
+            android:text="Russell"
             android:textColor="#FFF"
             android:textSize="24sp" />
     </LinearLayout>

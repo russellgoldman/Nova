@@ -58,5 +58,7 @@ public class LoginActivity extends Activity {
         intent.putExtra("nameText", text);
         startActivity(intent);
     }
+
+
 }
 
