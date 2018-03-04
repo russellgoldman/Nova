@@ -1,4 +1,4 @@
-package com.example.android.mentalhealthbot;
+package com.example.android.nova;
 
 import org.junit.Test;
 

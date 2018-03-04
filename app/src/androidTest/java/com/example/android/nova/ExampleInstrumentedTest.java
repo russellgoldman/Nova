@@ -1,4 +1,4 @@
-package com.example.android.mentalhealthbot;
+package com.example.android.nova;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
