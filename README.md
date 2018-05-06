@@ -3,6 +3,6 @@ StarterHacks2018 Submission
 
 https://starterhacks.ca/
 
-Project Site:
+Project Site
 
 http://www.kritinsinghal.com/nova.html
