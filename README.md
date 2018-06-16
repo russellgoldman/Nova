@@ -8,7 +8,7 @@ Project Site
 http://www.kritinsinghal.com/nova.html
 
 # Project Description
-Our AI chat-bot designed to build a bridge between university students and on campus resources in a humanized way.
+Our AI chat-bot Nova is designed to build a bridge between university students and on campus resources in a humanized way.
 
 Nova is an astrology term defined as, 'star showing sudden large increase in brightness'. We wanted this to be an analogy for how there's always hope and everyone has the power to transform their life for the better.
 
